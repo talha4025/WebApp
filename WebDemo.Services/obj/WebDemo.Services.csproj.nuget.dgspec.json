@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Services\\WebDemo.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj",
+        "projectName": "WebApp.Interfaces",
+        "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Talha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Talha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj"
+              },
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj",
+        "projectName": "WebDemo.Models",
+        "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Talha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Talha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Services\\WebDemo.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Services\\WebDemo.Services.csproj",
+        "projectName": "WebDemo.Services",
+        "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Services\\WebDemo.Services.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Talha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Talha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj"
+              },
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj",
+        "projectName": "WebDemo.ViewModels",
+        "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Talha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Talha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
