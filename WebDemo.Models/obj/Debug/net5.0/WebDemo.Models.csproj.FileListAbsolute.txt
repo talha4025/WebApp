@@ -1,0 +1,12 @@
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.deps.json
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\ref\WebDemo.Models.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.csproj.AssemblyReference.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.AssemblyInfoInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.AssemblyInfo.cs
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\ref\WebDemo.Models.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.pdb

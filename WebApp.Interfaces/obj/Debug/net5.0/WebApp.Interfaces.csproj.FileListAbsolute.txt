@@ -1,0 +1,17 @@
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebApp.Interfaces.deps.json
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebApp.Interfaces.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\ref\WebApp.Interfaces.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebApp.Interfaces.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebDemo.Models.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebDemo.ViewModels.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebDemo.Models.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\bin\Debug\net5.0\WebDemo.ViewModels.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.AssemblyInfo.cs
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.csproj.CopyComplete
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\ref\WebApp.Interfaces.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.pdb

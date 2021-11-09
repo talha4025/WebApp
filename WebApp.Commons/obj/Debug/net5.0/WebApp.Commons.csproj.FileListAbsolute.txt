@@ -1,0 +1,12 @@
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\bin\Debug\net5.0\WebApp.Commons.deps.json
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\bin\Debug\net5.0\WebApp.Commons.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\bin\Debug\net5.0\ref\WebApp.Commons.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\bin\Debug\net5.0\WebApp.Commons.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.csproj.AssemblyReference.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.AssemblyInfoInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.AssemblyInfo.cs
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\ref\WebApp.Commons.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Commons\obj\Debug\net5.0\WebApp.Commons.pdb

@@ -1,0 +1,6 @@
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp\obj\Debug\net5.0\WebApp.csproj.AssemblyReference.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp\obj\Debug\net5.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp\obj\Debug\net5.0\WebApp.AssemblyInfoInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp\obj\Debug\net5.0\WebApp.AssemblyInfo.cs
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp\obj\Debug\net5.0\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp\obj\Debug\net5.0\WebApp.MvcApplicationPartsAssemblyInfo.cache

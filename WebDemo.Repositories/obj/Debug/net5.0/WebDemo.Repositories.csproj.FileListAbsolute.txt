@@ -1,0 +1,5 @@
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Repositories\obj\Debug\net5.0\WebDemo.Repositories.csproj.AssemblyReference.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Repositories\obj\Debug\net5.0\WebDemo.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Repositories\obj\Debug\net5.0\WebDemo.Repositories.AssemblyInfoInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Repositories\obj\Debug\net5.0\WebDemo.Repositories.AssemblyInfo.cs
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Repositories\obj\Debug\net5.0\WebDemo.Repositories.csproj.CoreCompileInputs.cache

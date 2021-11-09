@@ -1,0 +1,12 @@
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\bin\Debug\net5.0\WebDemo.ViewModels.deps.json
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\bin\Debug\net5.0\WebDemo.ViewModels.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\bin\Debug\net5.0\ref\WebDemo.ViewModels.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\bin\Debug\net5.0\WebDemo.ViewModels.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.csproj.AssemblyReference.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.AssemblyInfo.cs
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\ref\WebDemo.ViewModels.dll
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.ViewModels\obj\Debug\net5.0\WebDemo.ViewModels.pdb
