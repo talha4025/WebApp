@@ -10,13 +10,14 @@ namespace WebDemo.Repositories
 {
     public abstract class BaseRepository
     {
-        private IApplicationContext context;
+        protected IApplicationContext context;
 
-        protected BaseRepository(IApplicationContext context)
+        protected BaseRepository(IApplicationContext _context)
         {
-            this.context = context;
+            context = _context;
         }
 
+       
         public abstract bool Delete(int id);
         public abstract List<User> GetAll();
         public abstract User Save(User domain);

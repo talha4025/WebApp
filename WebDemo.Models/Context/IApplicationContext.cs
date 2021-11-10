@@ -5,6 +5,7 @@ namespace WebDemo.Models.Context
     public interface IApplicationContext
     {
         DbSet<User> UserDB { get; set; }
+        DbSet<Students> StudentsDB { get; set; }
 
         void BeginTransaction();
         void CommitTransaction();

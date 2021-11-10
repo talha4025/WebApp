@@ -16,7 +16,7 @@ namespace WebApp.App_Start
     {
         public static void Initialize(IConfiguration configuration, IWebHostEnvironment env, IServiceProvider svp)
         {
-            var optionsBuilder = new DbContextOptionsBuilder();
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
             if (env.IsDevelopment())
             {
                 optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));

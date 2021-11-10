@@ -14,7 +14,10 @@ namespace WebApp.App_Start
             services.AddScoped<IApplicationContext, ApplicationContext>();
             services.AddScoped<IUserMap, UserMap>();
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IUSerRepository, UserRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IStudentsMap, StudentsMap>();
+            services.AddScoped<IStudentsRepository, StudentsRepository>();
+            services.AddScoped<IStudentsService, StudentsService>();
         }
     }
 }

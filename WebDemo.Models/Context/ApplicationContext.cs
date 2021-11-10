@@ -12,11 +12,11 @@ namespace WebDemo.Models.Context
     public class ApplicationContext : IdentityDbContext<User>, IApplicationContext
     {
         private IDbContextTransaction dbContextTransaction;
-        public ApplicationContext(DbContextOptions options)
+        public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options) { }
 
         public DbSet<User> UserDB { get; set; }
-
+        public DbSet<Students> StudentsDB { get; set; }
         public void SaveChanges()
         {
             base.SaveChanges();

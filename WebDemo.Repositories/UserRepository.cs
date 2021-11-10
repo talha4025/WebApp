@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,11 +15,12 @@ namespace WebDemo.Repositories
         public UserRepository(IApplicationContext context)
             : base(context)
         { }
+
         public override User Save(User domain)
         {
             try
-            {
-                var us = InsertUser<User>(domain);
+            {   
+                var us = context.UserDB.Add(domain).Entity; //InsertUser<User>(domain);
                 return us;
             }
             catch (Exception ex)
@@ -32,7 +34,9 @@ namespace WebDemo.Repositories
             try
             {
                 //domain.Updated = DateTime.Now;
-                UpdateUser<User>(domain);
+                context.UserDB.Update(domain);
+                context.SaveChanges();
+                //UpdateUser<User>(domain);
                 return true;
             }
             catch (Exception ex)
@@ -45,9 +49,12 @@ namespace WebDemo.Repositories
         {
             try
             {
-                User user = Context.UsersDB.Where(x => x.Id.Equals(id)).FirstOrDefault();
+                User user = context.UserDB.Where(x => x.Id.Equals(id)).FirstOrDefault();
                 if (user != null)
                 {
+
+                    context.UserDB.Remove(user);
+                    context.SaveChanges();
                     //Delete<User>(user);
                     return true;
                 }
@@ -66,7 +73,7 @@ namespace WebDemo.Repositories
         {
             try
             {
-                return Context.UsersDB.OrderBy(x => x.Name).ToList();
+                return context.UserDB.OrderBy(x => x.Name).ToList();
             }
             catch (Exception ex)
             {
