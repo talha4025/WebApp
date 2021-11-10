@@ -69,8 +69,9 @@ namespace WebDemo.Repositories
         {
             try
             {
-                var us = context.StudentsDB.Add(domain).Entity; 
-                return us;
+                var us = context.StudentsDB.Add(domain);
+                context.SaveChanges();
+                return us.Entity;
             }
             catch (Exception ex)
             {

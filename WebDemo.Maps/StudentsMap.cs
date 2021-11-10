@@ -46,7 +46,7 @@ namespace WebDemo.Maps
             model.LastName = domain.LastName;
             model.Department = domain.Department;
             model.ContactInfo = domain.ContactInfo;
-            model.Gender = domain.ContactInfo;
+            model.Gender = domain.Gender;
             model.CGPA = domain.CGPA;
             model.Address = domain.Address;
             return model;
@@ -72,7 +72,7 @@ namespace WebDemo.Maps
             domain.LastName = officeViewModel.LastName;
             domain.Department = officeViewModel.Department;
             domain.ContactInfo = officeViewModel.ContactInfo;
-            domain.Gender = officeViewModel.ContactInfo;
+            domain.Gender = officeViewModel.Gender;
             domain.CGPA = officeViewModel.CGPA;
             domain.Address = officeViewModel.Address;
             return domain;

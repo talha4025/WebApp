@@ -9,9 +9,9 @@ using WebDemo.ViewModels;
 
 namespace WebApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
-    public class StudentsController : ControllerBase
+    public class StudentsController : Controller
     {
         IStudentsMap studentsMap;
         public StudentsController(IStudentsMap _studentsMap)
@@ -19,7 +19,7 @@ namespace WebApp.Controllers
             studentsMap = _studentsMap;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IEnumerable<StudentsViewModel> Get()
         {
             return studentsMap.GetAll();
@@ -31,19 +31,19 @@ namespace WebApp.Controllers
             return studentsMap.Search(id);
         }
 
-        // POST api/user
-        [HttpPost]
+        [HttpPost("Create")]
         public StudentsViewModel Post([FromBody] StudentsViewModel student)
         {
-            return studentsMap.Create(student);
+            StudentsViewModel stud = student;
+            return studentsMap.Create(stud);
         }
-        // PUT api/user/5
-        [HttpPut("{id}")]
+        
+        [HttpPut("Update")]
         public bool Put([FromBody] StudentsViewModel student)
         {
             return studentsMap.Update(student);
         }
-        // DELETE api/user/5
+        
         [HttpDelete("{id}")]
         public bool Delete(int id)
         {
