@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using WebApp.App_Start;
 using WebDemo.Models;
 using WebDemo.Models.Context;
+using Swashbuckle.AspNetCore;
+using Microsoft.OpenApi.Models;
 
 namespace WebApp
 {
@@ -31,6 +33,9 @@ namespace WebApp
             DependencyInjectionConfig.AddScope(services);
             JwtTokenConfig.AddAuthentication(services, Configuration);
             DbContextConfig.Initialize(services, Configuration);
+            //services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>();
+            //services.ConfigureIdentity();
+
             services.AddMvc();
         }
 

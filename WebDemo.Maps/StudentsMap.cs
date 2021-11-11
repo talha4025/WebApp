@@ -16,27 +16,27 @@ namespace WebDemo.Maps
         {
             studentsService = _studentsService;
         }
-        public StudentsViewModel Create(StudentsViewModel viewModel)
+        public async Task<StudentsViewModel> Create(StudentsViewModel viewModel)
         {
             Students student = ViewModelToDomain(viewModel);
-            return DomainToViewModel(studentsService.Create(student));
+            return DomainToViewModel(await studentsService.Create(student));
         }
-        public bool Update(StudentsViewModel viewModel)
+        public async Task<bool> Update(StudentsViewModel viewModel)
         {
             Students student = ViewModelToDomain(viewModel);
-            return studentsService.Update(student);
+            return await studentsService.Update(student);
         }
-        public bool Delete(int id)
+        public async Task<bool> Delete(int id)
         {
-            return studentsService.Delete(id);
+            return await studentsService.Delete(id);
         }
-        public List<StudentsViewModel> GetAll()
+        public async Task<List<StudentsViewModel>> GetAll()
         {
-            return DomainToViewModel(studentsService.GetAll());
+            return DomainToViewModel(await studentsService.GetAll());
         }
-        public StudentsViewModel Search(int id)
+        public async Task<StudentsViewModel> Search(int id)
         {
-            return DomainToViewModel(studentsService.Search(id));
+            return DomainToViewModel(await studentsService.Search(id));
         }
         public StudentsViewModel DomainToViewModel(Students domain)
         {

@@ -16,25 +16,25 @@ namespace WebDemo.Services
             studentsRepository = _studentsRepository;
         }
 
-        public Students Create(Students domain)
+        public async Task<Students> Create(Students domain)
         {
-            return studentsRepository.Save(domain);
+            return await studentsRepository.Save(domain);
         }
-        public bool Update(Students domain)
+        public async Task<bool> Update(Students domain)
         {
-            return studentsRepository.Update(domain);
+            return await studentsRepository.Update(domain);
         }
-        public bool Delete(int id)
+        public async Task<bool> Delete(int id)
         {
-            return studentsRepository.Delete(id);
+            return await studentsRepository.Delete(id);
         }
-        public List<Students> GetAll()
+        public async Task<List<Students>> GetAll()
         {
-            return studentsRepository.GetAll();
+            return await studentsRepository.GetAll();
         }
-        public Students Search(int id)
+        public async Task<Students> Search(int id)
         {
-            return studentsRepository.Search(id);
+            return await studentsRepository.Search(id);
         }
     }
 }

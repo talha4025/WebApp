@@ -9,10 +9,10 @@ namespace WebApp.Interfaces
 {
     public interface IStudentsService
     {
-        Students Create(Students domain);
-        bool Delete(int id);
-        List<Students> GetAll();
-        Students Search(int id);
-        bool Update(Students domain);
+        Task<Students> Create(Students domain);
+        Task<bool> Delete(int id);
+        Task<List<Students>> GetAll();
+        Task<Students> Search(int id);
+        Task<bool> Update(Students domain);
     }
 }

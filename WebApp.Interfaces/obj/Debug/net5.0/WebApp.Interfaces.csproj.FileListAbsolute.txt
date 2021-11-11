@@ -14,3 +14,4 @@ C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\W
 C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.dll
 C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\ref\WebApp.Interfaces.dll
 C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.pdb
+C:\Users\Muhammad Talha\source\repos\WebApp\WebApp.Interfaces\obj\Debug\net5.0\WebApp.Interfaces.csproj.CopyComplete

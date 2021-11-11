@@ -1,4 +1,6 @@
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.deps.json
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.runtimeconfig.json
+C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.runtimeconfig.dev.json
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.dll
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\ref\WebDemo.Models.dll
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.pdb
@@ -10,6 +12,4 @@ C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebD
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.dll
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\ref\WebDemo.Models.dll
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.pdb
-C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.runtimeconfig.json
-C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\bin\Debug\net5.0\WebDemo.Models.runtimeconfig.dev.json
 C:\Users\Muhammad Talha\source\repos\WebApp\WebDemo.Models\obj\Debug\net5.0\WebDemo.Models.genruntimeconfig.cache

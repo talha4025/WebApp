@@ -15,11 +15,16 @@ namespace WebDemo.Models.Context
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options) { }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+
         public DbSet<User> UserDB { get; set; }
         public DbSet<Students> StudentsDB { get; set; }
         public void SaveChanges()
         {
-            base.SaveChanges();
+            base.SaveChangesAsync();
         }
         public new DbSet<T> Set<T>() where T : class
         {

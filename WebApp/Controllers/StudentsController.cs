@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ namespace WebApp.Controllers
 {
     [Route("api")]
     [ApiController]
+    [Authorize]
     public class StudentsController : Controller
     {
         IStudentsMap studentsMap;
@@ -20,34 +22,34 @@ namespace WebApp.Controllers
         }
 
         [HttpGet("GetAll")]
-        public IEnumerable<StudentsViewModel> Get()
+        public async Task<IEnumerable<StudentsViewModel>> Get()
         {
-            return studentsMap.GetAll();
+            return await studentsMap.GetAll();
         }
 
-        [HttpGet("{id}")]
-        public StudentsViewModel Search(int id)
+        [HttpGet("Search/{id}")]
+        public Task<StudentsViewModel> Search(int id)
         {
             return studentsMap.Search(id);
         }
 
         [HttpPost("Create")]
-        public StudentsViewModel Post([FromBody] StudentsViewModel student)
+        public Task<StudentsViewModel> Post([FromBody] StudentsViewModel student)
         {
             StudentsViewModel stud = student;
             return studentsMap.Create(stud);
         }
         
         [HttpPut("Update")]
-        public bool Put([FromBody] StudentsViewModel student)
+        public Task<bool> Put([FromBody] StudentsViewModel student)
         {
             return studentsMap.Update(student);
         }
         
-        [HttpDelete("{id}")]
-        public bool Delete(int id)
+        [HttpDelete("Delete/{id}")]
+        public async Task<bool> Delete(int id)
         {
-            return studentsMap.Delete(id);
+            return await studentsMap.Delete(id);
         }
     }
 }

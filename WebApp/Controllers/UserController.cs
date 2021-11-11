@@ -1,24 +1,28 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApp.Interfaces;
+using WebDemo.Models;
 using WebDemo.ViewModels;
 
 namespace WebApp.Controllers
 {
-    [Route("api/[controller]")]
-    [Authorize]
-    public class UserController : Controller
+    [Route("api")]
+    //[Authorize]
+    public class UserController : ControllerBase
     {
+        
         IUserMap userMap;
         public UserController(IUserMap map)
         {
             userMap = map;
         }
 
+        [Route("~/api/GetUser")]
         [HttpGet]
         public IEnumerable<UserViewModel> Get()
         {

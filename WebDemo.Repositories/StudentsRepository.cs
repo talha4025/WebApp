@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,11 +18,11 @@ namespace WebDemo.Repositories
             context = _context;
         }
 
-        public bool Delete(int id)
+        public async Task<bool> Delete(int id)
         {
             try
             {
-                Students student= context.StudentsDB.Where(x => x.Id.Equals(id)).FirstOrDefault();
+                Students student= await context.StudentsDB.Where(x => x.Id.Equals(id)).FirstOrDefaultAsync();
                 if (student != null)
                 {
 
@@ -40,22 +41,22 @@ namespace WebDemo.Repositories
             }
         }
 
-        public List<Students> GetAll()
+        public async Task<List<Students>> GetAll()
         {
             try
             {
-                return context.StudentsDB.ToList();
+                return  await context.StudentsDB.ToListAsync();
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-        public Students Search(int id)
+        public async Task<Students> Search(int id)
         {
             try
             {
-                Students student = context.StudentsDB.Where(x => x.Id.Equals(id)).FirstOrDefault();
+                Students student = await context.StudentsDB.Where(x => x.Id.Equals(id)).FirstOrDefaultAsync();
                 return student;
                
             }
@@ -65,11 +66,11 @@ namespace WebDemo.Repositories
             }
         }
 
-        public Students Save(Students domain)
+        public async Task<Students> Save(Students domain)
         {
             try
             {
-                var us = context.StudentsDB.Add(domain);
+                var us = await context.StudentsDB.AddAsync(domain);
                 context.SaveChanges();
                 return us.Entity;
             }
@@ -79,9 +80,9 @@ namespace WebDemo.Repositories
             }
         }
 
-        public bool Update(Students domain)
+        public async Task<bool> Update(Students domain)
         {
-            try
+            try 
             {
                 context.StudentsDB.Update(domain);
                 context.SaveChanges();
