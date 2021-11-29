@@ -46,11 +46,6 @@ namespace WebApp.Controllers.Test
             Assert.Equal(student.Department, students.Department);
             Assert.Equal(student.Gender, students.Gender);
             Assert.True(students is StudentsViewModel);
-            CancellationTokenSource _resetCacheToken = new();
-            _resetCacheToken.Cancel(); // this triggers the CancellationChangeToken to expire every item from cache
-
-            _resetCacheToken.Dispose();
-
         }
 
         public static async Task DeleteStudentTestHook()
@@ -74,8 +69,8 @@ namespace WebApp.Controllers.Test
 
             //Delete demo entry created in previous step
             string studentUpdated = await studentsController.Delete(getStudent.Id);
-
-            Assert.NotEmpty(studentUpdated);
+            string actual = $"Student with ID: {getStudent.Id} and Name: {getStudent.FirstName +" "+ getStudent.LastName} Deleted from Records";
+            Assert.Equal(studentUpdated,actual);
         }
 
         public static async Task UpdateStudentTestHook()
@@ -102,8 +97,8 @@ namespace WebApp.Controllers.Test
 
             //Update demo entry created in previous step
             string studentUpdated = await studentsController.Put(student);
-
-            Assert.NotEmpty(studentUpdated);
+            string actual = $"Student with ID: {student.Id} Updated in Database Records";
+            Assert.Equal(studentUpdated, actual);
         }
 
         public static async Task SearchStudentTestHook()
@@ -129,6 +124,14 @@ namespace WebApp.Controllers.Test
             StudentsViewModel searchedStudent = await studentsController.Search(1);
 
             Assert.NotNull(searchedStudent);
+            Assert.Equal(searchedStudent.FirstName, students.FirstName);
+            Assert.Equal(searchedStudent.LastName, students.LastName);
+            Assert.Equal(searchedStudent.Address, students.Address);
+            Assert.Equal(searchedStudent.ContactInfo, students.ContactInfo);
+            Assert.Equal(searchedStudent.CGPA, students.CGPA);
+            Assert.Equal(searchedStudent.Department, students.Department);
+            Assert.Equal(searchedStudent.Gender, students.Gender);
+            Assert.True(students is StudentsViewModel);
         }
 
         public static async Task GetAllTestHook()
@@ -153,6 +156,14 @@ namespace WebApp.Controllers.Test
             //Get demo entry created in previous step
             IEnumerable<StudentsViewModel> allStudents = await studentsController.Get();
             Assert.NotEmpty(allStudents);
+            Assert.Equal(allStudents.First().FirstName, students.FirstName);
+            Assert.Equal(allStudents.First().LastName, students.LastName);
+            Assert.Equal(allStudents.First().Address, students.Address);
+            Assert.Equal(allStudents.First().ContactInfo, students.ContactInfo);
+            Assert.Equal(allStudents.First().CGPA, students.CGPA);
+            Assert.Equal(allStudents.First().Department, students.Department);
+            Assert.Equal(allStudents.First().Gender, students.Gender);
+            Assert.True(allStudents.First() is StudentsViewModel);
         }
 
     }

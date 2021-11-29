@@ -13,34 +13,34 @@ namespace Tests
     {
         
         [Fact]
-        [Trait("TestType", "CreateTest")]
+        [Trait("TestType", "CreateStudentTest")]
         public async Task CreateStudentTest()
         {
             await  StudentControllerTestHook.CreateStudentTestHook();
         }
         [Fact]
-        [Trait("TestType", "GetAllTest")]
+        [Trait("TestType", "GetAllStudentsTest")]
         public async Task GetAllStudentsTest()
         {
             await StudentControllerTestHook.GetAllTestHook();
         }
 
         [Fact]
-        [Trait("TestType", "SearchTest")]
+        [Trait("TestType", "SearchStudentTest")]
         public async Task SearchStudentTest()
         {
             await StudentControllerTestHook.SearchStudentTestHook();
         }
 
         [Fact]
-        [Trait("TestType", "UpdateTest")]
+        [Trait("TestType", "UpdateStudentTest")]
         public async Task UpdateStudentTest()
         {
             await StudentControllerTestHook.UpdateStudentTestHook();
         }
 
         [Fact]
-        [Trait("TestType", "DeleteTest")]
+        [Trait("TestType", "DeleteStudentTest")]
         public async Task DeleteStudentTest()
         {
             await StudentControllerTestHook.DeleteStudentTestHook();
