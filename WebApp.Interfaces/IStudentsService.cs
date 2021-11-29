@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebDemo.Models;
+using WebDemo.ViewModels;
 
 namespace WebApp.Interfaces
 {
     public interface IStudentsService
     {
-        Task<Students> Create(Students domain);
-        Task<bool> Delete(int id);
-        Task<List<Students>> GetAll();
-        Task<Students> Search(int id);
-        Task<bool> Update(Students domain);
+        Task<StudentsViewModel> Create(StudentsViewModel viewModel);
+        Task<string> Delete(int id);
+        Task<List<StudentsViewModel>> GetAll();
+        Task<StudentsViewModel> Search(int id);
+        Task<string> Update(StudentsViewModel domain);
     }
 }

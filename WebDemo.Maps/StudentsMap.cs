@@ -9,36 +9,36 @@ using WebDemo.ViewModels;
 
 namespace WebDemo.Maps
 {
-    public class StudentsMap: IStudentsMap
+    public static class StudentsMap//: IStudentsMap
     {
-        private IStudentsService studentsService;
-        public StudentsMap(IStudentsService _studentsService)
-        {
-            studentsService = _studentsService;
-        }
-        public async Task<StudentsViewModel> Create(StudentsViewModel viewModel)
-        {
-            Students student = ViewModelToDomain(viewModel);
-            return DomainToViewModel(await studentsService.Create(student));
-        }
-        public async Task<bool> Update(StudentsViewModel viewModel)
-        {
-            Students student = ViewModelToDomain(viewModel);
-            return await studentsService.Update(student);
-        }
-        public async Task<bool> Delete(int id)
-        {
-            return await studentsService.Delete(id);
-        }
-        public async Task<List<StudentsViewModel>> GetAll()
-        {
-            return DomainToViewModel(await studentsService.GetAll());
-        }
-        public async Task<StudentsViewModel> Search(int id)
-        {
-            return DomainToViewModel(await studentsService.Search(id));
-        }
-        public StudentsViewModel DomainToViewModel(Students domain)
+        //private IStudentsService studentsService;
+        //public StudentsMap(IStudentsService _studentsService)
+        //{
+        //    studentsService = _studentsService;
+        //}
+        //public static async Task<StudentsViewModel> Create(StudentsViewModel viewModel)
+        //{
+        //    Students student = ViewModelToDomain(viewModel);
+        //    return DomainToViewModel(await studentsService.Create(student));
+        //}
+        //public static async Task<string> Update(StudentsViewModel viewModel)
+        //{
+        //    Students student = ViewModelToDomain(viewModel);
+        //    return await studentsService.Update(student);
+        //}
+        //public static async Task<string> Delete(int id)
+        //{
+        //    return await studentsService.Delete(id);
+        //}
+        //public static async Task<List<StudentsViewModel>> GetAll()
+        //{
+        //    return DomainToViewModel(await studentsService.GetAll());
+        //}
+        //public static async Task<StudentsViewModel> Search(int id)
+        //{
+        //    return DomainToViewModel(await studentsService.Search(id));
+        //}
+        public static StudentsViewModel DomainToViewModel(Students domain)
         {
             StudentsViewModel model = new StudentsViewModel();
             model.Id = domain.Id;
@@ -51,7 +51,7 @@ namespace WebDemo.Maps
             model.Address = domain.Address;
             return model;
         }
-        public List<StudentsViewModel> DomainToViewModel(List<Students> domain)
+        public static List<StudentsViewModel> DomainToViewModel(List<Students> domain)
         {
             List<StudentsViewModel> model = new List<StudentsViewModel>();
             foreach (Students stds in domain)
@@ -61,7 +61,7 @@ namespace WebDemo.Maps
             
             return model;
         }
-        public Students ViewModelToDomain(StudentsViewModel officeViewModel)
+        public static Students ViewModelToDomain(StudentsViewModel officeViewModel)
         {
             Students domain = new Students();
             if (officeViewModel.Id != 0 && officeViewModel.Id != null)

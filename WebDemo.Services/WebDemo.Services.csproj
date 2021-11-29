@@ -5,8 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.11" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\WebApp.Interfaces\WebApp.Interfaces.csproj" />
+    <ProjectReference Include="..\WebDemo.Maps\WebDemo.Maps.csproj" />
     <ProjectReference Include="..\WebDemo.Models\WebDemo.Models.csproj" />
+    <ProjectReference Include="..\WebDemo.Repositories\WebDemo.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

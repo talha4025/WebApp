@@ -9,11 +9,11 @@ namespace WebApp.Interfaces
 {
     public interface IStudentsRepository
     {
-        Task<bool> Delete(int id);
+        Task<string> Delete(int id);
         Task<List<Students>> GetAll();
 
         Task<Students> Save(Students domain);
         Task<Students> Search(int id);
-        Task<bool> Update(Students domain);
+        Task<string> Update(Students domain);
     }
 }

@@ -33,6 +33,7 @@ namespace WebApp
             DependencyInjectionConfig.AddScope(services);
             JwtTokenConfig.AddAuthentication(services, Configuration);
             DbContextConfig.Initialize(services, Configuration);
+            //services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             //services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>();
             //services.ConfigureIdentity();
 

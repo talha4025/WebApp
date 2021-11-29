@@ -15,7 +15,7 @@ namespace WebApp.App_Start
             services.AddScoped<IUserMap, UserMap>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IStudentsMap, StudentsMap>();
+            //services.AddScoped<IStudentsMap, StudentsMap>();
             services.AddScoped<IStudentsRepository, StudentsRepository>();
             services.AddScoped<IStudentsService, StudentsService>();
         }

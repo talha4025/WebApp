@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dhwTSD3704BuI6jPnEmQQofPXzJtuBBGGrlybItdfpwncS+H8/RPoBcpCe+eu8YmU8In+yzgRsX8h16piLraaQ==",
+  "dgSpecHash": "XjVpqG1Zmo7chpwt7LUKF5gUeB52opBMPCRgxSTIHPKHR9+Ro1nhD/IOD0KBwB3qMARW3DQuTDrmL3i+PfTG5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Commons\\WebApp.Commons.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammad Talha\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

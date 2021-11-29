@@ -18,7 +18,7 @@ namespace WebDemo.Repositories
             context = _context;
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<string> Delete(int id)
         {
             try
             {
@@ -28,11 +28,11 @@ namespace WebDemo.Repositories
 
                     context.StudentsDB.Remove(student);
                     context.SaveChanges();
-                    return true;
+                    return $"Student with ID: {student.Id} and Name: {student.FirstName +" "+ student.LastName} Deleted from Records";
                 }
                 else
                 {
-                    return false;
+                    return "Student not Found in database";
                 }
             }
             catch (Exception ex)
@@ -80,13 +80,30 @@ namespace WebDemo.Repositories
             }
         }
 
-        public async Task<bool> Update(Students domain)
+        public async Task<string> Update(Students domain)
         {
             try 
             {
-                context.StudentsDB.Update(domain);
-                context.SaveChanges();
-                return true;
+                var student =await context.StudentsDB.AsNoTracking().Where(x => x.Id.Equals(domain.Id)).FirstOrDefaultAsync() ;
+                if (student!=null)
+                {
+
+                    student.FirstName = domain.FirstName;
+                    student.LastName = domain.LastName;
+                    student.Gender = domain.Gender;
+                    student.Address = domain.Address;
+                    student.ContactInfo = domain.ContactInfo;
+                    student.Department = domain.Department;
+                    student.CGPA = domain.CGPA;
+
+                    //context.StudentsDB.Update(domain);
+                    context.SaveChanges();
+                    return $"Student with ID: {domain.Id} Updated in Database Records";
+                }
+                else
+                {
+                    return "Student not Found in database";
+                }
             }
             catch (Exception ex)
             {

@@ -15,41 +15,41 @@ namespace WebApp.Controllers
     [Authorize]
     public class StudentsController : Controller
     {
-        IStudentsMap studentsMap;
-        public StudentsController(IStudentsMap _studentsMap)
+        IStudentsService studentsService;
+        public StudentsController(IStudentsService _studentsService)
         {
-            studentsMap = _studentsMap;
+            studentsService = _studentsService;
         }
 
         [HttpGet("GetAll")]
         public async Task<IEnumerable<StudentsViewModel>> Get()
         {
-            return await studentsMap.GetAll();
+            return await studentsService.GetAll();
         }
 
         [HttpGet("Search/{id}")]
         public Task<StudentsViewModel> Search(int id)
         {
-            return studentsMap.Search(id);
+            return studentsService.Search(id);
         }
 
         [HttpPost("Create")]
         public Task<StudentsViewModel> Post([FromBody] StudentsViewModel student)
         {
             StudentsViewModel stud = student;
-            return studentsMap.Create(stud);
+            return studentsService.Create(stud);
         }
-        
+
         [HttpPut("Update")]
-        public Task<bool> Put([FromBody] StudentsViewModel student)
+        public Task<string> Put([FromBody] StudentsViewModel student)
         {
-            return studentsMap.Update(student);
+            return studentsService.Update(student);
         }
-        
+
         [HttpDelete("Delete/{id}")]
-        public async Task<bool> Delete(int id)
+        public async Task<string> Delete(int id)
         {
-            return await studentsMap.Delete(id);
+            return await studentsService.Delete(id);
         }
     }
 }

@@ -47,9 +47,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
             }
           },
           "imports": [
@@ -67,7 +75,85 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Maps\\WebDemo.Maps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Maps\\WebDemo.Maps.csproj",
+        "projectName": "WebDemo.Maps",
+        "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Maps\\WebDemo.Maps.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Talha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Maps\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Talha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj"
+              },
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj"
+              },
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.ViewModels\\WebDemo.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -107,6 +193,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -120,6 +210,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
             }
           },
           "imports": [
@@ -137,7 +231,81 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Repositories\\WebDemo.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Repositories\\WebDemo.Repositories.csproj",
+        "projectName": "WebDemo.Repositories",
+        "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Repositories\\WebDemo.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Talha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Talha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -168,8 +336,14 @@
               "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebApp.Interfaces\\WebApp.Interfaces.csproj"
               },
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Maps\\WebDemo.Maps.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Maps\\WebDemo.Maps.csproj"
+              },
               "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj": {
                 "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Models\\WebDemo.Models.csproj"
+              },
+              "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Repositories\\WebDemo.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Talha\\source\\repos\\WebApp\\WebDemo.Repositories\\WebDemo.Repositories.csproj"
               }
             }
           }
@@ -183,6 +357,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -198,7 +386,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -237,6 +425,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -252,7 +450,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{97482352-A19E-4676-BD10-265BE9A2B4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{97482352-A19E-4676-BD10-265BE9A2B4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Commons", "WebApp.Commons\WebApp.Commons.csproj", "{47EAE340-910F-4623-8B19-C42E79F471CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Commons", "WebApp.Commons\WebApp.Commons.csproj", "{47EAE340-910F-4623-8B19-C42E79F471CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Interfaces", "WebApp.Interfaces\WebApp.Interfaces.csproj", "{B4273347-1BC5-4BF4-8E57-5BB71D481F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Interfaces", "WebApp.Interfaces\WebApp.Interfaces.csproj", "{B4273347-1BC5-4BF4-8E57-5BB71D481F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo.Maps", "WebDemo.Maps\WebDemo.Maps.csproj", "{040BAC70-94D0-4386-8E20-07E0F160D790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDemo.Maps", "WebDemo.Maps\WebDemo.Maps.csproj", "{040BAC70-94D0-4386-8E20-07E0F160D790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo.Models", "WebDemo.Models\WebDemo.Models.csproj", "{75342548-D7C0-48EE-B044-36A01B722FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDemo.Models", "WebDemo.Models\WebDemo.Models.csproj", "{75342548-D7C0-48EE-B044-36A01B722FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo.Repositories", "WebDemo.Repositories\WebDemo.Repositories.csproj", "{9E2177CC-BABD-4DF0-A2FD-89FA1849BFC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDemo.Repositories", "WebDemo.Repositories\WebDemo.Repositories.csproj", "{9E2177CC-BABD-4DF0-A2FD-89FA1849BFC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo.Services", "WebDemo.Services\WebDemo.Services.csproj", "{F53B9992-DD2C-4490-A6AB-787EDFF7B303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDemo.Services", "WebDemo.Services\WebDemo.Services.csproj", "{F53B9992-DD2C-4490-A6AB-787EDFF7B303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo.ViewModels", "WebDemo.ViewModels\WebDemo.ViewModels.csproj", "{2425E37E-8BC3-4AEB-A6B4-B87338820914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDemo.ViewModels", "WebDemo.ViewModels\WebDemo.ViewModels.csproj", "{2425E37E-8BC3-4AEB-A6B4-B87338820914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E397EDB8-5379-4AF1-9AB6-54A43E8E0E3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{2425E37E-8BC3-4AEB-A6B4-B87338820914}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2425E37E-8BC3-4AEB-A6B4-B87338820914}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2425E37E-8BC3-4AEB-A6B4-B87338820914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E397EDB8-5379-4AF1-9AB6-54A43E8E0E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E397EDB8-5379-4AF1-9AB6-54A43E8E0E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E397EDB8-5379-4AF1-9AB6-54A43E8E0E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E397EDB8-5379-4AF1-9AB6-54A43E8E0E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

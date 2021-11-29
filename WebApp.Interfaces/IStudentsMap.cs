@@ -11,11 +11,11 @@ namespace WebApp.Interfaces
     public interface IStudentsMap
     {
         Task<StudentsViewModel> Create(StudentsViewModel viewModel);
-        Task<bool> Delete(int id);
+        Task<string> Delete(int id);
 
         Task<List<StudentsViewModel>> GetAll();
         Task<StudentsViewModel> Search(int id);
-        Task<bool> Update(StudentsViewModel viewModel);
+        Task<string> Update(StudentsViewModel viewModel);
 
         StudentsViewModel DomainToViewModel(Students domain);
         List<StudentsViewModel> DomainToViewModel(List<Students> domain);
